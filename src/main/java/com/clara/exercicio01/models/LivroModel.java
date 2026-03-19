@@ -3,13 +3,16 @@ package com.clara.exercicio01.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="TBL_LIVRO")
+@Table(name="tb_livro")
 public class LivroModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(name = "Titulo do livro")
     private String titulo;
+    @Column(name = "Autor")
     private String autor;
     private Integer anoDePublicacao;
 
