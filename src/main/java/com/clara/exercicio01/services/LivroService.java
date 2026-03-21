@@ -17,7 +17,7 @@ public class LivroService {
         return livroRepositorie.findAll();
     }
 
-    public LivroModel criarPessoa (LivroModel livroModel){
+    public LivroModel criarLivro (LivroModel livroModel){
         return livroRepositorie.save(livroModel);
     }
 

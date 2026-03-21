@@ -5,4 +5,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface LivroRepositorie extends JpaRepository<LivroModel, Long> {
 }
-}
+
